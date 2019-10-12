@@ -1,6 +1,6 @@
 const Config = require('./config.js')
 const level = require('level')
-const kv = level('./.state')
+const kv = level('./leveldb')
 /**
 * Return the last synchronized checkpoint
 */
